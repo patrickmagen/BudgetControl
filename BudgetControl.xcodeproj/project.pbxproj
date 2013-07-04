@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03EE78BC1785A744007DDC20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EE78BB1785A744007DDC20 /* UIKit.framework */; };
+		03EE78BE1785A744007DDC20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EE78BD1785A744007DDC20 /* Foundation.framework */; };
+		03EE78C01785A744007DDC20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EE78BF1785A744007DDC20 /* CoreGraphics.framework */; };
+		03EE78C61785A744007DDC20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03EE78C41785A744007DDC20 /* InfoPlist.strings */; };
+		03EE78C81785A744007DDC20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE78C71785A744007DDC20 /* main.m */; };
+		03EE78CC1785A744007DDC20 /* BCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE78CB1785A744007DDC20 /* BCAppDelegate.m */; };
+		03EE78CE1785A744007DDC20 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 03EE78CD1785A744007DDC20 /* Default.png */; };
+		03EE78D01785A744007DDC20 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03EE78CF1785A744007DDC20 /* Default@2x.png */; };
+		03EE78D21785A744007DDC20 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03EE78D11785A744007DDC20 /* Default-568h@2x.png */; };
+		03EE78D51785A744007DDC20 /* BCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE78D41785A744007DDC20 /* BCViewController.m */; };
+		03EE78D81785A744007DDC20 /* BCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03EE78D61785A744007DDC20 /* BCViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03EE78B81785A744007DDC20 /* BudgetControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgetControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03EE78BB1785A744007DDC20 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03EE78BD1785A744007DDC20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03EE78BF1785A744007DDC20 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03EE78C31785A744007DDC20 /* BudgetControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BudgetControl-Info.plist"; sourceTree = "<group>"; };
+		03EE78C51785A744007DDC20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03EE78C71785A744007DDC20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03EE78C91785A744007DDC20 /* BudgetControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BudgetControl-Prefix.pch"; sourceTree = "<group>"; };
+		03EE78CA1785A744007DDC20 /* BCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCAppDelegate.h; sourceTree = "<group>"; };
+		03EE78CB1785A744007DDC20 /* BCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCAppDelegate.m; sourceTree = "<group>"; };
+		03EE78CD1785A744007DDC20 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		03EE78CF1785A744007DDC20 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		03EE78D11785A744007DDC20 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		03EE78D31785A744007DDC20 /* BCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCViewController.h; sourceTree = "<group>"; };
+		03EE78D41785A744007DDC20 /* BCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCViewController.m; sourceTree = "<group>"; };
+		03EE78D71785A744007DDC20 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BCViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03EE78B51785A744007DDC20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EE78BC1785A744007DDC20 /* UIKit.framework in Frameworks */,
+				03EE78BE1785A744007DDC20 /* Foundation.framework in Frameworks */,
+				03EE78C01785A744007DDC20 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03EE78AF1785A744007DDC20 = {
+			isa = PBXGroup;
+			children = (
+				03EE78C11785A744007DDC20 /* BudgetControl */,
+				03EE78BA1785A744007DDC20 /* Frameworks */,
+				03EE78B91785A744007DDC20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03EE78B91785A744007DDC20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03EE78B81785A744007DDC20 /* BudgetControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03EE78BA1785A744007DDC20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03EE78BB1785A744007DDC20 /* UIKit.framework */,
+				03EE78BD1785A744007DDC20 /* Foundation.framework */,
+				03EE78BF1785A744007DDC20 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03EE78C11785A744007DDC20 /* BudgetControl */ = {
+			isa = PBXGroup;
+			children = (
+				03EE78CA1785A744007DDC20 /* BCAppDelegate.h */,
+				03EE78CB1785A744007DDC20 /* BCAppDelegate.m */,
+				03EE78D31785A744007DDC20 /* BCViewController.h */,
+				03EE78D41785A744007DDC20 /* BCViewController.m */,
+				03EE78D61785A744007DDC20 /* BCViewController.xib */,
+				03EE78C21785A744007DDC20 /* Supporting Files */,
+			);
+			path = BudgetControl;
+			sourceTree = "<group>";
+		};
+		03EE78C21785A744007DDC20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03EE78C31785A744007DDC20 /* BudgetControl-Info.plist */,
+				03EE78C41785A744007DDC20 /* InfoPlist.strings */,
+				03EE78C71785A744007DDC20 /* main.m */,
+				03EE78C91785A744007DDC20 /* BudgetControl-Prefix.pch */,
+				03EE78CD1785A744007DDC20 /* Default.png */,
+				03EE78CF1785A744007DDC20 /* Default@2x.png */,
+				03EE78D11785A744007DDC20 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03EE78B71785A744007DDC20 /* BudgetControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03EE78DB1785A744007DDC20 /* Build configuration list for PBXNativeTarget "BudgetControl" */;
+			buildPhases = (
+				03EE78B41785A744007DDC20 /* Sources */,
+				03EE78B51785A744007DDC20 /* Frameworks */,
+				03EE78B61785A744007DDC20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BudgetControl;
+			productName = BudgetControl;
+			productReference = 03EE78B81785A744007DDC20 /* BudgetControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03EE78B01785A744007DDC20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Patrick Albrecht Magen";
+			};
+			buildConfigurationList = 03EE78B31785A744007DDC20 /* Build configuration list for PBXProject "BudgetControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03EE78AF1785A744007DDC20;
+			productRefGroup = 03EE78B91785A744007DDC20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03EE78B71785A744007DDC20 /* BudgetControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03EE78B61785A744007DDC20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EE78C61785A744007DDC20 /* InfoPlist.strings in Resources */,
+				03EE78CE1785A744007DDC20 /* Default.png in Resources */,
+				03EE78D01785A744007DDC20 /* Default@2x.png in Resources */,
+				03EE78D21785A744007DDC20 /* Default-568h@2x.png in Resources */,
+				03EE78D81785A744007DDC20 /* BCViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03EE78B41785A744007DDC20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EE78C81785A744007DDC20 /* main.m in Sources */,
+				03EE78CC1785A744007DDC20 /* BCAppDelegate.m in Sources */,
+				03EE78D51785A744007DDC20 /* BCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03EE78C41785A744007DDC20 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03EE78C51785A744007DDC20 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03EE78D61785A744007DDC20 /* BCViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03EE78D71785A744007DDC20 /* en */,
+			);
+			name = BCViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03EE78D91785A744007DDC20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03EE78DA1785A744007DDC20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03EE78DC1785A744007DDC20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BudgetControl/BudgetControl-Prefix.pch";
+				INFOPLIST_FILE = "BudgetControl/BudgetControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03EE78DD1785A744007DDC20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BudgetControl/BudgetControl-Prefix.pch";
+				INFOPLIST_FILE = "BudgetControl/BudgetControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03EE78B31785A744007DDC20 /* Build configuration list for PBXProject "BudgetControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EE78D91785A744007DDC20 /* Debug */,
+				03EE78DA1785A744007DDC20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03EE78DB1785A744007DDC20 /* Build configuration list for PBXNativeTarget "BudgetControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EE78DC1785A744007DDC20 /* Debug */,
+				03EE78DD1785A744007DDC20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03EE78B01785A744007DDC20 /* Project object */;
+}
