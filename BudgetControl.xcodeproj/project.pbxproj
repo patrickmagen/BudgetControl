@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		033880441789EEB400BA9C2A /* BCKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 033880431789EEB400BA9C2A /* BCKeyboard.m */; };
 		03EE78BC1785A744007DDC20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EE78BB1785A744007DDC20 /* UIKit.framework */; };
 		03EE78BE1785A744007DDC20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EE78BD1785A744007DDC20 /* Foundation.framework */; };
 		03EE78C01785A744007DDC20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EE78BF1785A744007DDC20 /* CoreGraphics.framework */; };
@@ -17,10 +18,11 @@
 		03EE78D01785A744007DDC20 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03EE78CF1785A744007DDC20 /* Default@2x.png */; };
 		03EE78D21785A744007DDC20 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03EE78D11785A744007DDC20 /* Default-568h@2x.png */; };
 		03EE78D51785A744007DDC20 /* BCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE78D41785A744007DDC20 /* BCViewController.m */; };
-		03EE78D81785A744007DDC20 /* BCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03EE78D61785A744007DDC20 /* BCViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		033880421789EEB400BA9C2A /* BCKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCKeyboard.h; sourceTree = "<group>"; };
+		033880431789EEB400BA9C2A /* BCKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCKeyboard.m; sourceTree = "<group>"; };
 		03EE78B81785A744007DDC20 /* BudgetControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgetControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03EE78BB1785A744007DDC20 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		03EE78BD1785A744007DDC20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,7 +38,6 @@
 		03EE78D11785A744007DDC20 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		03EE78D31785A744007DDC20 /* BCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCViewController.h; sourceTree = "<group>"; };
 		03EE78D41785A744007DDC20 /* BCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCViewController.m; sourceTree = "<group>"; };
-		03EE78D71785A744007DDC20 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BCViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +88,8 @@
 				03EE78CB1785A744007DDC20 /* BCAppDelegate.m */,
 				03EE78D31785A744007DDC20 /* BCViewController.h */,
 				03EE78D41785A744007DDC20 /* BCViewController.m */,
-				03EE78D61785A744007DDC20 /* BCViewController.xib */,
+				033880421789EEB400BA9C2A /* BCKeyboard.h */,
+				033880431789EEB400BA9C2A /* BCKeyboard.m */,
 				03EE78C21785A744007DDC20 /* Supporting Files */,
 			);
 			path = BudgetControl;
@@ -163,7 +165,6 @@
 				03EE78CE1785A744007DDC20 /* Default.png in Resources */,
 				03EE78D01785A744007DDC20 /* Default@2x.png in Resources */,
 				03EE78D21785A744007DDC20 /* Default-568h@2x.png in Resources */,
-				03EE78D81785A744007DDC20 /* BCViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +178,7 @@
 				03EE78C81785A744007DDC20 /* main.m in Sources */,
 				03EE78CC1785A744007DDC20 /* BCAppDelegate.m in Sources */,
 				03EE78D51785A744007DDC20 /* BCViewController.m in Sources */,
+				033880441789EEB400BA9C2A /* BCKeyboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +191,6 @@
 				03EE78C51785A744007DDC20 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		03EE78D61785A744007DDC20 /* BCViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				03EE78D71785A744007DDC20 /* en */,
-			);
-			name = BCViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -299,6 +293,7 @@
 				03EE78DD1785A744007DDC20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
